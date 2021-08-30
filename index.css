@@ -1,0 +1,11 @@
+ div{
+     background-color: gray;
+     height: 60px;
+     color: white;
+     text-align: center;
+     font-size: 3em;
+ }
+ a{
+     font-size: 1.4em;
+     text-decoration: none;
+ }
