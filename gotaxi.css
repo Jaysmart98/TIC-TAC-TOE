@@ -1,0 +1,137 @@
+#a {
+    width: 100vw;
+    
+}
+#scene {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(222, 247, 252);
+    margin-left: 0px;
+    
+    
+}
+
+#veh {
+    /* width: 100vw; */
+    /* height: 200px; */
+    /* background-color: black; */
+    position: absolute;
+    animation-name: forward2;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    /* height: 90px;   */
+}
+#veh1 {
+    /* width: 100vw; */
+    /* height: 200px; */
+    /* background-color: black; */
+    position: absolute;
+    animation-name: forward2;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    /* height: 90px;   */
+}
+#vehi {
+    /* background-color: black; */
+    /* width: 100vw; */
+    position: absolute;
+    animation-name: forward;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    margin-left: -5px;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    /* height: 90px;   */
+}
+#vehi1 {
+    /* background-color: black; */
+    /* width: 100vw; */
+    margin-left: -5px;
+    position: absolute;
+    animation-name: forward;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    /* height: 90px;   */
+}
+#reverse {
+    /* background-color: black; */
+    /* width: 100vw; */
+    /* height: 150px; */
+    margin-left: 5px ;
+    position: absolute;
+    animation-name: forward;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    /* height: 90px;   */
+}
+#reverse1 {
+    /* background-color: black; */
+    /* width: 100vw; */
+    /* height: 150px; */
+    position: absolute;
+    animation-name: forward;
+    /* margin-left: -0px ; */
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+    z-index: 5;
+    /* height: 90px;   */
+}
+
+@keyframes forward {
+
+    0% {
+        transform: translateX(-250vw);
+    }
+    100% {
+        transform: translateX(100vw);
+
+    }
+}
+@keyframes forward2 {
+
+
+    0% {
+        transform: translateX(-250vw);
+    }
+    100% {
+        transform: translateX(100vw);
+
+    }
+}
+
+#b {
+    transform: translateY(120px);
+}
+#d {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+    margin-left: 0px;
+    transform: translateY(100px);
+}
+body {
+    background-image: url(back-use.jpg);
+    margin-left: 0px;
+}

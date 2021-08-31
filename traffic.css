@@ -1,0 +1,173 @@
+#city{
+    background-image: url();
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(208,218,248);    
+}
+#car1{
+    margin-top: -350px;
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    animation-name: movement2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-direction: movement;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+}
+#car3{
+    margin-top: -390px;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    animation-name: movement2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: backwards;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+}
+#car2{
+    margin-top: -180px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    animation-name: movement;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    margin-left: -5px;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+ }
+#car4{
+    margin-top: -270px;
+    width: 300px;
+    height: 200px;
+    margin-left: -5px;
+    position: absolute;
+    animation-name: movement2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+}
+#car5{
+    width: 500px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: 5px ;
+    position: absolute;
+    animation-name: movement;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+}
+#car6{
+    width: 600px;
+    height:500px;
+    margin-top: -200px;
+    position: absolute;
+    animation-name: movement;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none;
+} 
+@keyframes movement2 {
+    0% {
+        transform: translateX(1800px);
+       }
+    100% {
+        transform: translateX(-1000px);
+    }
+}
+#b {
+    transform: translateY(120px);
+}
+#three{
+    margin-top: -250px;
+    width: 1500px;
+    height: 300px;
+    background-color: black;
+    transform: translateY(100px);
+}
+#main{
+    margin-top: -90px;
+    position: absolute;
+    /* animation-name: forward;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: none; */
+    display: flex;
+}
+@keyframes movement {
+    0% {
+        transform: translateX(-800px);
+       }
+    100% {
+        transform: translateX(2000px);
+    }
+}
+#lane1{
+    margin-top: -100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    margin-left: 0px;
+    transform: translateY(100px);
+}
+#lane2{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    transform: translateY(100px);
+}
+#lane3{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    transform: translateY(100px);
+}
+#lane4{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    transform: translateY(100px);
+}
+#lane5{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    transform: translateY(100px);
+}
+#lane6{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+    transform: translateY(100px);
+}
