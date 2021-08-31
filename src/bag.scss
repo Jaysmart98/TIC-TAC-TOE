@@ -1,0 +1,89 @@
+@import "_mixin";
+@import "_reset";
+@import "_variable";
+
+section{
+    background-color: rgb(150,109,79);
+    width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 70px;
+    position: fixed;
+ #item{
+     margin-top: 50px;
+    width: 400px ;
+    position: fixed;
+#new{
+    background-color: rgb(38,39,41);
+    width: 40px;
+    height: 20px;
+    color: white;
+    margin-left: -350px;
+    margin-top: -370px;
+    padding: 10px;
+    text-indent: 8px;
+    transform: skewY(-40deg);
+    }
+#image{
+    margin-left: 100px;
+    width: 350px;
+    height: 400px;
+    position: fixed;
+     }
+
+  }       
+}
+#item1{
+    background-color: black;
+    margin-left: 450px;
+    height: 400px;
+    width: 400px;
+    color: #ffff;
+    position: fixed;
+    h2{
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size:3.7em;
+    }
+    h4{
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    h1{
+        margin-top: 30px;
+        font-size: 5em;
+        margin-left: 30px;
+    }
+}
+    #line1{
+    background-color: #fff;
+    width: 50px;
+    height: 500px;
+    margin-left: 400px;
+    transform: skew(-20deg);
+    position: absolute;
+    }
+    #line2{
+        background-color: #fff;
+        margin-left: 470px;
+        width: 30px;
+        height: 500px;
+        transform: skew(-20deg);
+        position: absolute;
+    }
+    #now{
+        width: 60px;
+        // height: 5px;
+        background-color: white;
+        margin-left: 280px;
+        text-align: center;
+        margin-top: 330px;
+        color: black;
+        padding: 10px;
+    }
+    #star{
+        width: 150px;
+        height: 40px;
+        margin-left: 30px;
+    }
